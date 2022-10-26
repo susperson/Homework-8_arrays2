@@ -22,8 +22,7 @@ public class Main {
         for (int todayCost : dailyCosts) {
             if (todayCost < minCost) {
                 minCost = todayCost;
-            }
-            if (todayCost > maxCost) {
+            } else if (todayCost > maxCost) {
                 maxCost = todayCost;
             }
         }
